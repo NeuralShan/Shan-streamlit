@@ -9,8 +9,8 @@ from IPython.core.getipython import get_ipython
 from PIL import Image
 
 # load the encoder and model object
-model = joblib.load("/Users/shan/VSCodeProjects/Internship work/StackUp/rta_model_deploy3.joblib")
-encoder = joblib.load("/Users/shan/VSCodeProjects/Internship work/StackUp/ordinal_encoder2.joblib")
+model = joblib.load("rta_model_deploy3.joblib")
+encoder = joblib.load("ordinal_encoder2.joblib")
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
